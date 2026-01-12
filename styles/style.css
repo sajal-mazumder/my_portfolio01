@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* shared style */
+
+.font_open_sans{
+    font-family: "open sans", sans-serif;
+    font-optical-sizing: auto;
+
+}
+.btn{
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(206, 196, 177, 0.418);
+    color: black;
+    transition: .5s ease;
+}
+
+header{
+    background-color: rgba(206, 196, 177, 0.418);
+    
+    background: url(../images/background/header_bg.png),rgba(206, 196, 177, 0.418);
+    background-repeat: no-repeat;
+    /* background-position: top left, bottom right; */
+    background-position: right bottom;
+    /* background-size: cover , auto; */
+    max-height:max-content;
+    position: relative;
+    height: 100vh;
+}
+
+.image_header{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    /* bottom: 10; */
+    height: 95%;
+}
+
+.nav_menu{
+    padding-top: 10px;
+    display: flex;
+    width: 80%;
+    max-width: 1140px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_menu img{
+    width: 50px;
+    height: 40px;
+}
+
+nav .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+}
+
+nav .links a{
+    text-decoration: none;
+    color: rgb(76, 72, 72);
+}
+
+#main_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    max-width: 70%;
+    margin: 0 auto;
+}
+.hero_content{
+    max-height: 400px;
+}
+#main_content .hero_content h2{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+#main_content .hero_content h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#main_content .hero_content p{
+    color: rgb(75, 73, 73);
+    margin-bottom: 20px;
+}
+
+
+#main_content #hero_img img{
+    max-width: 600px;
+    left: 900px;
+    /* vertical-align: middle; */
+}
+#main_content .hero_content button{
+    margin-top: 30px;
+}
+
+/* about section */
+
+#about_section{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    margin-top: 100px;
+    text-align: center;
+}
+.section_heading{
+    text-align: center;
+}
+ .section_heading h3{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.section_heading p{
+    color: rgb(132, 184, 230);
+    padding: 10px 30px;
+
+}
+
+.info_cards{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+/* skill section */
+
+#skills{
+    width: 90%;
+    max-width: 1140px;
+    
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.skill_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+    gap: 40px;
+    height: 400px;
+}
+
+.skill_cards img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+.skill_cards p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.card_sec{
+    background-color: aliceblue;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgb(146, 146, 146);
+}
