@@ -27,9 +27,13 @@
 .btn:hover{
     background-color: rgba(206, 196, 177, 0.418);
     color: black;
-    transition: .5s ease;
+    transition: 1s ease;
+}
+.hide{
+    display: none;
 }
 
+/* header section */
 header{
     background-color: rgba(206, 196, 177, 0.418);
     
@@ -38,7 +42,8 @@ header{
     /* background-position: top left, bottom right; */
     background-position: right bottom;
     /* background-size: cover , auto; */
-    max-height:max-content;
+    /* max-height:max-content; */
+    height: 100%;
     position: relative;
     height: 100vh;
 }
@@ -98,12 +103,12 @@ nav .links a{
 }
 #main_content .hero_content h2{
     font-weight: 600;
-    font-size: 45px;
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 #main_content .hero_content h1{
     font-weight: bold;
-    font-size: 60px;
+    font-size: 3.5rem;
     margin-bottom: 20px;
 }
 #main_content .hero_content p{
@@ -114,8 +119,8 @@ nav .links a{
 
 #main_content #hero_img img{
     max-width: 600px;
-    left: 900px;
-    /* vertical-align: middle; */
+    /* left: 900px; */
+    vertical-align: middle;
 }
 #main_content .hero_content button{
     margin-top: 30px;
@@ -168,7 +173,7 @@ nav .links a{
     justify-content: space-around;
     /* background-color: aliceblue; */
     gap: 40px;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .skill_cards img{
@@ -183,9 +188,9 @@ nav .links a{
 
 .card_sec{
     background-color: aliceblue;
-    height: 300px;
+    /* height: 300px; */
     border-radius: 5px;
     text-align: center;
-    padding: 5px;
+    padding: 20px 5px;
     box-shadow: 5px 5px 10px rgb(146, 146, 146);
 }

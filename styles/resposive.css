@@ -1,0 +1,32 @@
+
+/* small device */
+
+@media screen and (max-width: 576px) {
+    .image_header{
+        display: none;
+    }
+    .logo_menu{
+        margin-bottom: 20px;
+    }
+    .nav_menu, .links, #main_content {
+        flex-direction: column;
+    }
+    
+    .hero_content {
+        /* max-width: 100%; */
+        margin-top: 180px;
+        /* padding: 0 30px; */
+    }
+     #hero_img {
+        margin-top: 30px;
+     }
+     #hero_img img{
+        max-width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+     }
+     .btn{
+        display: block;
+        justify-items: center;
+     }
+}
