@@ -23,6 +23,15 @@
     font-weight: bold;
     cursor: pointer;
 }
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.btn a:hover{
+    color: black;
+    transition: 1s ease;
+}
 
 .btn:hover{
     background-color: rgba(206, 196, 177, 0.418);
@@ -197,6 +206,9 @@ nav .links a{
 
 /* resume section */
 .resume_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 85%;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -219,4 +231,7 @@ nav .links a{
 }
 .experience_info{
     margin-bottom: 20px;
+}
+.resume_btn{
+    left: 500px;
 }
