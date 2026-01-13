@@ -197,6 +197,7 @@ nav .links a{
 
 .card_sec{
     background-color: aliceblue;
+    border: 1px solid orange;
     /* height: 300px; */
     border-radius: 5px;
     text-align: center;
