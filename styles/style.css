@@ -90,7 +90,7 @@ nav .links a{
     text-decoration: none;
     color: rgb(76, 72, 72);
 }
-
+/* hero section */
 #main_content{
     display: flex;
     align-items: center;
@@ -140,7 +140,7 @@ nav .links a{
     text-align: center;
 }
  .section_heading h3{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
     padding-top: 20px;
 }
