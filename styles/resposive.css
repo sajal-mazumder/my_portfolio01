@@ -8,7 +8,7 @@
     .logo_menu{
         margin-bottom: 20px;
     }
-    .nav_menu, .links, #main_content, .info_cards, .skill_cards {
+    .nav_menu, .links, #main_content, .info_cards, .skill_cards, .resume_content {
         flex-direction: column;
     }
     
